@@ -1,0 +1,141 @@
+<html>
+
+<head>
+	<title>FTTH Survey and Planning</title>
+	<link type="image/png" rel="icon" href="img/logo.png">
+</head>
+
+<style>
+
+body{
+text-align:center;
+background-image: linear-gradient(black, #414141);
+margin:0;
+overflow-x: hidden;
+overflow-y: hidden;
+}
+
+.hedd{
+position:fixed;
+width:100%;
+background-image: linear-gradient(black, #414141);
+padding-bottom:10px;
+}
+	
+h1{
+color:white;
+}
+
+.hed{
+padding-top:5px;
+padding-bottom:5px;
+}
+
+.spn{
+margin-top:20px;
+}
+
+.cnt{
+padding-top:20%;
+}
+
+button{
+padding:5px;
+width:15%;
+background-image: linear-gradient(#623333, #8f0b0b);
+color:#dadada;
+}
+
+h2{
+color:red;
+}
+
+
+button:hover {
+    color: f40303;
+    box-shadow: 0 0 5px #f40303,
+        0 0 25px #f40303,
+        0 0 50px #f40303,
+        0 0 100px #f40303;
+		transition:0.5s;
+}
+
+iframe{
+border:none;
+
+}
+
+
+
+
+
+</style>
+
+<body>
+   
+   <div class="hedd">
+	<img src="img/airtel.png" style="height:70;">
+	<div class="hed">
+		<h1>FTTH Survey and Planning Department - KK</h1>
+		
+	</div>
+	
+
+	<div class="spn">
+		<span>
+			<button onclick="aa()">Home </button>
+		</span>
+
+		<span>
+			<button onclick="bb()">Weekly Tracker </button>
+		</span>
+
+		<span>
+			<button onclick="cc()">Daily Report</button>
+		</span>
+		
+		<span>
+			<button>Monthly Tracker</button>
+		</span>
+
+		<span>
+			<button>Survey Report</button>
+		</span>
+
+		<span>
+			<button>Planning Report</button>
+		</span>
+
+
+	</div>
+
+   </div>
+
+	<div class="cnt" id="demo2">
+		<h2>Welcome to Team Tracking Portal</h2>
+	</div>
+
+</body>
+
+<script>
+	function aa(){
+	
+		document.getElementById("demo2").innerHTML="<h2>Wlecome to Airtel FTTH Survey & Planning Portal</h2>";
+
+	}
+
+	function bb(){
+	
+		document.getElementById("demo2").innerHTML="<iframe src=index2.html style='width:100%; height:100%' ></iframe>";
+
+	}
+	
+	function cc(){
+	
+		document.getElementById("demo2").innerHTML="<iframe src=index3.html style='width:100%; height:100%' ></iframe>";
+
+	}
+
+</script>
+
+</html>
